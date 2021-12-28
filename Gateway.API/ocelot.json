@@ -1,0 +1,54 @@
+{
+
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/products",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5087
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/products",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5087
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/products/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/customers",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5016
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/customers",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/customers/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5016
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/customers/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    }
+  ]
+
+}
