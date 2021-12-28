@@ -8,7 +8,7 @@ This repository provides a simple example of a microservice architecture using a
 
 <p align="center" spacing="10">
     <kbd>
-        <img src="media/topology.png" />
+        <img src="media/topology.PNG" />
     </kbd>
 </p>
 
