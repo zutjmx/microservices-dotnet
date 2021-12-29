@@ -1,6 +1,6 @@
 # Microservice Example using .NET and MariaDB
 
-This repository provides a simple example of a microservice architecture using a [Microsoft .NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) solution that contains:
+This repository provides a simple example of a microservice architecture using a [Microsoft .NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) solution with [MariaDB](https://mariadb.com) that contains:
 
 * Two microservice ([Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)) projects 
 * One API Gateway project
