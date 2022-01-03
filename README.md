@@ -1,6 +1,6 @@
 # Microservice Example using .NET and MariaDB
 
-This repository provides a simple example of a microservice architecture using a [Microsoft .NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) solution with [MariaDB](https://mariadb.com) that contains:
+This repository provides a simple example of a microservice architecture using a [Microsoft .NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) solution with [Entity Framework](https://docs.microsoft.com/ef/) and [MariaDB](https://mariadb.com) that contains:
 
 * Two microservice ([Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)) projects 
 * One API Gateway project
@@ -23,7 +23,7 @@ This repository provides a simple example of a microservice architecture using a
     3. [Anatomy of the app](#app)
     4. [Confifgure the application](#config)
     5. [Build and run the app](#build-run)
-4. [Requirements to run the app](#requirements)
+4. [Helpful Resources](#helpful-resources)
 5. [Support and contribution](#support-contribution)
 6. [License](#license)
 
@@ -133,6 +133,10 @@ Depending on how you've setup your environment you may have the option to build 
 
 * [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/walkthrough-building-an-application?view=vs-2022) - build and run the solution by first opening the [Demo.sln file](Demo.sln]) using the Visual Studio IDE
 * [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run) - build and run the solution by using the dotnet command with the [Demo.sln file](Demo.sln).
+
+## Helpful Resources <a name="helpful-resources"></a>
+
+Webinar: [Creating Microservices with .NET 6, Entity Framework and MariaDB](https://go.mariadb.com/22Q1-WBN-OSSG-GLBL-Microservices-.Net-Entity-Framework-2021-12-21_Registration-LP.html)
 
 ## Support and Contribution <a name="support-contribution"></a>
 
