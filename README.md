@@ -124,8 +124,8 @@ For the `Customers.API` and `Products.API` microservice projects to use your Mar
 
 To do that, update the connection string configuration in the projects' appsettings.json files:
 
-* [Customers.API appsettings.json](Customers.API/appsettings.json)
-* [Products.API appsettings.json](Products.API/appsettings.json)
+* [Customers.API appsettings.json](Customers.API/appsettings.json#L9)
+* [Products.API appsettings.json](Products.API/appsettings.json#L9)
 
 ### Build and run the app <a name="build-run"></a>
 
