@@ -23,6 +23,18 @@ namespace Customers.API.Controllers
             return Ok(result);
         }
 
+        // GET: api/products/{id}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            var result = await _productService.FindOneAsync(id);
+            if (result == null)
+            {
+                return NotFound();
+            }
+            return Ok(result);
+        }
+
         // POST: api/products
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Product product)
